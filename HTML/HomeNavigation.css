@@ -1,0 +1,36 @@
+@CHARSET "ISO-8859-1";
+@import "bourbon";
+body {
+	/* background: #eee !important; */
+	background-image: url("rich-street-bridge-with-lights-4 (1).jpg");
+	background-size:100%
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+     background-position: center; 
+}
+
+#menu-open{
+	padding-left:55px;
+	padding-top:20px;
+	font-size: 20px
+}
+
+#menu-collapse{
+	padding-left:52px;
+	padding-top: 2px;
+}
+
+#side-bar-links{
+	padding-top:40px;
+}
+
+.top-nav-header {
+	height: 70px;
+	background-color:white;
+}
+
+.logout{
+	float:right;
+	padding-right: 20px;
+	padding-bottom:100px;
+}
