@@ -15,17 +15,22 @@
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Oswald|Josefin+Sans'
+<link
+	href='https://fonts.googleapis.com/css?family=Oswald|Josefin+Sans|Open+Sans'
 	rel='stylesheet' type='text/css'>
 <link href="super-panel.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="HomeNavigation.css">
 </head>
 
-<body
-	style="background-color: #32936F; font-family: 'Josefin Sans', sans-serif;">
+<body style="font-family: 'Josefin Sans', sans-serif;">
 	<div class="top-nav-header">
-		<p id="menu-open">ERF HOMEPAGE</p>
-		<p class="logout"><a href="#">Logout</a></p>
+		<div id="menu-open" class="col-sm-4">ERF HOMEPAGE</div>
+		<div class="text-center col-sm-4">
+			<img src="bannerERF.jpg" id="banner" />
+		</div>
+		<div class="col-sm-4">
+			<a class="logout" href="HomePage.html">LOGOUT</a>
+		</div>
 		<span data-panel="panel1" class="panel-button">
 
 
@@ -33,7 +38,7 @@
 				<span data-panel="panel1" class="panel-button"></span>
 				<p id="menu-collapse">CLOSE</p>
 
-				<div id="side-bar-links" class="text-center">
+				<div id="side-bar-links" style="">
 					<div>
 						<h3>Create a New Package</h3>
 					</div>
@@ -58,8 +63,33 @@
 				</div>
 			</div>
 		</span>
-		
+
 	</div>
+
+	<div class="wrapper">
+		<div class="text-center"></div>
+		<h1>Recommended Software Versions</h1>
+		<p>Adobe Acrobat Reader version 6.0 and Internet Explorer 7.0 or
+			higher are recommended for use with the ERF Website.</p>
+
+		<hr>
+		<h1>RAS3 AVAILABLE FOR DOWNLOAD</h1>
+		<p>RAS3 is now available to state agencies as a replacement to the
+			Microsoft Word-based RAS 2.0 currently in use. Please visit
+			http://ras.lis.state.oh.us to download RAS3 and supporting
+			documentation. If you have any questions or concerns, please contact
+			the ERF Help Desk at 614-387-2078.</p>
+			<hr>
+		<h1>PDF</h1>
+		<p>Documents The ERF System is not compatible with certain
+			versions of PDF documents. If an incompatible PDF is uploaded, the
+			ERF System will, upon upload, convert the PDF to a compatible
+			version. IT IS THE FILER’S RESPONSIBILITY TO CAREFULLY EXAMINE THE
+			PDF WHEN PRINT/VIEWING THE DOCUMENT PRIOR TO FILING TO VERIFY THAT
+			THE DOCUMENT IS RENDERED AS EXPECTED.</p>
+	</div>
+
+
 	<script src="super-panel.js"></script>
 </body>
 </html>
