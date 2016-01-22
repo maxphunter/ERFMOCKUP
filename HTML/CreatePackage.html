@@ -21,48 +21,89 @@
 <link rel="stylesheet" type="text/css" href="CreatePackage.css">
 </head>
 <body>
+
+	<div class="top-nav-header">
+		<div class="col-sm-4">
+			<h4 style="padding-top: 15px">
+				<a href="HomeNavigation.html"> << BACK</a>
+			</h4>
+		</div>
+		<div class="col-sm-4">
+			<h2 class="text-center">Create New Package</h2>
+		</div>
+		<div class="col-sm-4"></div>
+	</div>
+	
+	
 	<div class="wrapper">
 		<div class="text-center">
 			<img src="bannerERF.jpg" id="banner" />
 		</div>
 		<form class="form-signin" path="HomeNavigation.html">
-			<h2 class="form-signin-heading">Please login</h2>
-			<input type="text" class="form-control" name="username"
-				placeholder="Email Address" required="" autofocus="" /> <input
-				type="password" class="form-control" name="password"
-				placeholder="Password" required="" />
-			<div style="padding-left: 20px;">
-				<label class="checkbox"> <input type="checkbox"
-					value="remember-me" id="rememberMe" name="rememberMe">
-					Remember me
-				</label>
+			<div class="col-sm-12">
+				<h2 class="form-signin-heading">Agency:</h2>
+				<p>7 - Mike's agency</p>
 			</div>
+
+			<div class="form-group">
+				<label for="sel1">Division:</label> <select class="form-control"
+					id="sel1">
+					<option>Test Division</option>
+					<option>Marcy's Test Division</option>
+					<option>Test Agency/Division</option>
+					<option>MIKE'S TEST DIVISION</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<label for="usr">Enter Package Name:</label> <input type="text"
+					class="form-control" id="usr">
+			</div>
+
+
+			<div class="form-group">
+				<label for="sel1">Prescribe Statute:</label> <select
+					class="form-control" id="sel1">
+					<option>119.03</option>
+					<option>111.15</option>
+					<option>117.20</option>
+					<option>5703.14</option>
+					<option>Other</option>
+				</select>
+			</div>
+
 			<div>
 				<h3>Choose Pacakge Type:</h3>
 				<div class="radio">
-					<label><input type="radio" name="optradio">Typical (Original Filing of New, Amended or Rescinded rules)</label>
+					<label><input type="radio" name="optradio">Typical
+						(Original Filing of New, Amended or Rescinded rules)</label>
 				</div>
 				<div class="radio">
-					<label><input type="radio" name="optradio">No Change / FYR</label>
+					<label><input type="radio" name="optradio">No
+						Change / FYR</label>
 				</div>
 				<div class="radio">
 					<label><input type="radio" name="optradio">Emergency</label>
 				</div>
 				<div class="radio">
-					<label><input type="radio" name="optradio">University/Community College</label>
+					<label><input type="radio" name="optradio">University/Community
+						College</label>
 				</div>
 				<div class="radio">
-					<label><input type="radio" name="optradio">Internal Management</label>
+					<label><input type="radio" name="optradio">Internal
+						Management</label>
 				</div>
 				<div class="radio">
-					<label><input type="radio" name="optradio">State Fire Marshal</label>
+					<label><input type="radio" name="optradio">State
+						Fire Marshal</label>
 				</div>
 				<div class="radio">
-					<label><input type="radio" name="optradio">Special, not Subject to Legislative Review</label>
+					<label><input type="radio" name="optradio">Special,
+						not Subject to Legislative Review</label>
 				</div>
 			</div>
 
-			<button class="btn btn-lg btn-success btn-block" type="submit">Create</button>
+			<button class="btn btn-lg btn-success" type="submit">Create</button>
 
 		</form>
 

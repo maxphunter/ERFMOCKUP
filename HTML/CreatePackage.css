@@ -3,12 +3,27 @@
 .wrapper {
 	margin-top: 80px;
 	margin-bottom: 80px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 10vw;
+	margin-right: 10vw;
 	background-color: white;
-	padding-left: 60px;
-	padding-right: 60px;
+	padding-left: 30px;
+	padding-right: 30px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	border-radius: 10px;
+}
+
+body {
+	/* background: #eee !important; */
+	background-image: url("rich-street-bridge-with-lights-4 (1).jpg");
+	background-size:100%
+	oubackground-repeat: no-repeat;
+	background-attachment: fixed;
+     background-position: center; 
+}
+
+.top-nav-header {
+	height: 76px;
+	background-color:white;
+	padding-top: 2px;
 }
