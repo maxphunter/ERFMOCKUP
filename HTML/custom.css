@@ -4,7 +4,8 @@
 
 body {
 	/* background: #eee !important; */
-	background-image: url("rich-street-bridge-with-lights-4 (1).jpg");
+	/* background-image: url("rich-street-bridge-with-lights-4 (1).jpg"); */
+	background-color: #eee;
 	background-size: 100% background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;

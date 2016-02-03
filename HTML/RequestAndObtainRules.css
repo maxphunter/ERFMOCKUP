@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+
+#infobox {
+	margin-right: 12vw;
+	margin-left: 12vw;
+	background-color: white;
+	padding: 20px ;
+	opacity: 90%;
+}
+
+body {
+	/* background-image: url("rich-street-bridge-with-lights-4 (1).jpg"); */
+	background-color: #eee;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: 'Libre Baskerville', serif;
+}
+
+#top-heading {
+	background-color: white;
+	padding: 10px;
+}
+
+#bottom-links {
+	color: black;
+	text-decoration: none;
+}
+
+#bottom-link-div {
+	margin-top: 100px;
+	float: bottom;
+	color: gray;
+}
+
+#ordered-list-heading{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#bottom-paragraph{
+	padding: 2vw;
+}
